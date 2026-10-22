@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+
+int countingnumber(int n){
+    int value=0;
+    for(int i=1;i<=n;i++){
+        value++;
+    }
+    return value;
+}
+int main(){
+    int n;
+    cin>>n;
+    countingnumber(n);
+}
