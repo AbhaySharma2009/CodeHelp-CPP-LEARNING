@@ -73,33 +73,11 @@ using namespace std;
 // }
 
 
-string isNarcissistic(int num) {
-        // Implement logic to check if num is Narcissistic
-        int ans =0;
-        int n =0;
-        int i=1;
-        while(i!=0){
-            int rem= num%10;
-            n++;
-            num = num/10;
-        }
-        int j=1;
-        while(j!=0){
-            int rem1 = num%10;
-            ans = ans+pow(rem1,n);
-            num=num/10;
-        }
-        if(ans==num){
-            return "Yes";
-        }
-        else{
-            return "No";
-        }
+int main(){
+    int n;
+    cin>>n;
+    int arr[10];
+    for(int i=1;i<=n;i++){
+        cout<<arr[i]<<" ";
     }
-    int main(){
-        int num;
-        cin>>num;
-        string final= isNarcissistic(num);
-        cout<<final;
-        return 0;
-    }
+}
