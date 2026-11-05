@@ -9,7 +9,7 @@ double findaverage(vector<int> & arr){
     for(int i=0;i<size;i++){
         sum = arr[i]+sum;
     }
-    average = sum/size;
+    average = (sum*1.0)/size;
     return average;
 }
 int main(){
