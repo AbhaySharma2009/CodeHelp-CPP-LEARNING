@@ -2,6 +2,8 @@
 #include<vector>
 using namespace std;
 
+
+///////////////multiply each of the element by 10
 void multiplyarray(vector<int>&nums){
     int size = nums.size();
     for(int i=0;i<size;i++){
