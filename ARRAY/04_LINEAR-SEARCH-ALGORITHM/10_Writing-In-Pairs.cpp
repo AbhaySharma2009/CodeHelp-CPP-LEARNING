@@ -2,6 +2,7 @@
 #include<vector>
 using namespace std;
 
+////// print all the pairs 
 void printpairs(vector<int>nums){
     vector<int>num=nums;
     int n = num.size();
