@@ -4,26 +4,26 @@
 using namespace std;
 
 
-//int main (){
-      //creation 
-//    vector<int> marks(5,2);
-//    cout<<*marks.begin();
+// int main (){
+//       //creation 
+//    vector<int> marks(5,1);
+//    cout<<*marks.begin()<<endl;
 //    return 0;
-//}
+// }
 
 
 
-//int main (){                                         // Push_back()
+// int main (){                                         // Push_back()
 //    vector<int>marks;
 //    marks.push_back(10);
 //    marks.push_back(20);
 //    marks.push_back(30);
-//    cout<<"size of "<<marks.size()<<endl;
-//}
+//    cout<<"size of "<<marks.size()<<endl;  // output = 3 (size)
+// }
 
 
 
-//int main (){                                              // pop_ back ()
+// int main (){                                              // pop_ back ()
 //    vector<int> marks;
 //    marks.push_back(10);
 //    marks.push_back(20);
@@ -39,34 +39,35 @@ using namespace std;
 //        cout<<"vector  is not empty "<<endl;
 //    }
 //    cout<<marks.front()<<endl;                                // front()
+//    cout<<*marks.begin()<<endl; // it also behave like front()
 //    cout<<marks.back()<<endl;                                 // back()
 //    return 0;
-//}
+// }
 
 
-//int main (){                                               // operator []  index
+// int main (){                                               // operator []  index
 //    vector<int>marks;
 //    marks.push_back(10);
 //    marks.push_back(20);
 //    marks.push_back(30);
-     //reintialise the index value 
+//      //reintialise the index value 
 //     marks[0]=100;
-//    cout<<marks[1];
-//}
+//    cout<<marks[1]<<endl;;
+// }
 
-//int main (){
+// int main (){
 //    vector<int>marks;
 //    marks.reserve(10);                                      // reserver ()
 //    cout<<marks.capacity()<<endl;                            // capcaity ()
 //    return 0;
-//}
+// }
 
 
-//int main (){                                                // max_size()
+// int main (){                                                // max_size()
 //    vector<int>marks;
 //    cout<<marks.max_size()<<endl;                              
 //    return 0;
-//}
+// }
 
 
 //int main (){                                                  //clear()
@@ -80,7 +81,7 @@ using namespace std;
 //}
 
 
-//int main (){                                              // insert()
+// int main (){                                              // insert()
 //    vector<int>marks;
 //    marks.push_back(10);
 //    marks.push_back(20);
@@ -89,23 +90,23 @@ using namespace std;
 //    cout<<marks.size()<<endl;
 //    cout<<marks[0]<<endl;
 //    return 0;
-//}
+// }
 
 
 
-//nt main (){                                                  //erase()
- //   vector<int>marks;
- //   marks.push_back(10);
- //   marks.push_back(20);
- //   marks.push_back(30);
- //   marks.erase(marks.begin(),marks.end());
- //   cout<<marks.size();
- //   return 0;
-//}
+// int main (){                                                  //erase()
+//    vector<int>marks;
+//    marks.push_back(10);
+//    marks.push_back(20);
+//    marks.push_back(30);
+//    marks.erase(marks.begin(),marks.end());
+//    cout<<marks.size()<<endl;
+//    return 0;
+// }
 
 
 
-//int main (){                                                // swap()
+// int main (){                                                // swap()
 //    vector<int>first;
 //    vector<int>second;
 //    first.push_back(10);
@@ -118,18 +119,18 @@ using namespace std;
 //    cout<<first[0]  <<first[1]   <<first[2]<<endl;
 //    cout<<second[0]  <<second[1]  <<second[3]<<endl;
 //    return 0;
-//}
+// }
 
 
 
 
 
-//int main (){                                                   // traverse the vector using iterator 
+// int main (){                                                   // traverse the vector using iterator 
 //    vector<int>first;
 //    first.push_back(10);
 //    first.push_back(20);
 //    first.push_back(30);
-//.   // intilizie
+//     // intilizie
 //    vector<int>::iterator it=first.begin();
 //    //conditon 
 //    while(it!=first.end()){
@@ -138,19 +139,19 @@ using namespace std;
 //        it++;
 //    }
 //    return 0;
-//}
+// }
 
 
 
 
 // 2D array 
-//int main (){                                              // for same no of coloumbs
+// int main (){                                              // for same no of coloumbs
 //    vector<vector<int>>arr(4,vector<int>(4,0));
 //    int totalrows=arr.size();
 //    int totalcolumbs=arr[0].size();
-//    cout<<totalrows<<" , "<<totalcolumbs;
+//    cout<<totalrows<<" , "<<totalcolumbs<<endl;
 //    return 0;
-//}
+// }
 
 
 // 
@@ -210,9 +211,6 @@ using namespace std;
 // }  
 
 
-int main(){
-    
-}
 
 
 
