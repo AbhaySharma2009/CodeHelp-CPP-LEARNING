@@ -59,7 +59,11 @@ int main (){                                            // "swap" case for list
    second.push_back(200);
    second.push_back(300);
    first.swap(second);
-   cout<<first[0]<<" "<<first[1]<<" "<<first[2];
+   list<int>::iterator it=first.begin();
+   while(it!=first.end()){
+      cout<<*it<<" , ";    // output = 100 , 200  , 300 
+      it++;
+   }
    return 0;
 }
 
