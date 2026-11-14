@@ -1,7 +1,7 @@
 #include<iostream>
 #include<queue>
 using namespace std;
-//int main(){
+// int main(){
 //    queue<int>q;
 //    q.push(10);                                                 // push case
 //    q.push(20);
@@ -19,7 +19,7 @@ using namespace std;
 //        cout<<" q is not empty "<<endl;
 //    }
 //    return 0;
-//}
+// }
 
 
 
