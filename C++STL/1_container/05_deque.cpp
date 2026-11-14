@@ -1,7 +1,7 @@
 #include<iostream>
 #include<deque>
 using namespace std;
-//int main (){                                                    // member function in "deque"
+// int main (){                                                    // member function in "deque"
 //    deque<int>dq;
 //    dq.push_back(10);
 //    // 10
@@ -27,7 +27,9 @@ using namespace std;
 //    else{
 //        cout<<"deque is not empty"<<endl;
 //    }
-//}
+// }
+
+
 
 int main (){
     deque<int>dq;

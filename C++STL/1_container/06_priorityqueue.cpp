@@ -1,7 +1,7 @@
 #include<iostream>
 #include<queue>
 using namespace std;
-//int main (){                                                      //memner funstion in "priority queue"
+// int main (){                                                      //memner funstion in "priority queue"
 //    priority_queue<int> pq;
 //    pq.push(10);
 //    //10
@@ -15,7 +15,7 @@ using namespace std;
 //    //99
 //    cout<<pq.size()<<endl;
 //    return 0;
-//}
+// }
 
 
 
