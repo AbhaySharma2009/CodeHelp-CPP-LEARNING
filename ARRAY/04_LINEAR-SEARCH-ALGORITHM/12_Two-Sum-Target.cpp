@@ -12,8 +12,9 @@ vector<int> twosum(vector<int>nums , int target){
                 break;
             }
         }
-    }   
-}
+    }
+
+};
 int main(){
     int target = 160;
     vector<int>nums={10,20,30,40,80,80};

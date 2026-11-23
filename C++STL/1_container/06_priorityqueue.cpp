@@ -21,7 +21,7 @@ using namespace std;
 
 int main (){   
     // min heap syntax    
-    // min heap = minimum number priority order                                                //memner funstion in "priority queue"
+    // min heap = minimum number priority order                                                //member funstion in "priority queue"
     priority_queue<int,vector<int>,greater<int>> pq;
     pq.push(10);
     //10

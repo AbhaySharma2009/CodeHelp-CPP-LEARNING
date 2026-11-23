@@ -49,23 +49,23 @@ using namespace std;
 
 
 
-int main (){                                            // "swap" case for list
-   list<int>first;
-   list<int>second;
-   first.push_back(10);
-   first.push_back(20);
-   first.push_back(30);
-   second.push_back(100);
-   second.push_back(200);
-   second.push_back(300);
-   first.swap(second);
-   list<int>::iterator it=first.begin();
-   while(it!=first.end()){
-      cout<<*it<<" , ";    // output = 100 , 200  , 300 
-      it++;
-   }
-   return 0;
-}
+// int main (){                                            // "swap" case for list
+//    list<int>first;
+//    list<int>second;
+//    first.push_back(10);
+//    first.push_back(20);
+//    first.push_back(30);
+//    second.push_back(100);
+//    second.push_back(200);
+//    second.push_back(300);
+//    first.swap(second);
+//    list<int>::iterator it=first.begin();
+//    while(it!=first.end()){
+//       cout<<*it<<" , ";    // output = 100 , 200  , 300 
+//       it++;
+//    }
+//    return 0;
+// }
 
 
 
